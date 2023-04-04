@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+<style>
+    .left_side{
+        min-width: 16rem;
+        max-width: 20rem;
+        background-color: rgba(242, 242, 242, 0.04);
+        border:1px solid lightgray;
+        border-left: none;
+        height:calc(100vh - 80px);
+        resize: horizontal;
+        overflow: auto;
+    }
+    .left_middle{
+        min-width: 1.5rem;
+        width: 15rem;
+        max-width: 35rem;
+        background-color: rgba(242, 242, 242, 0.04);
+        border:1px solid lightgray;
+        border-left: none;
+
+        height: calc(100vh - 80px);
+        resize: horizontal;
+        overflow: auto;
+    }
+    .right_middle{
+        min-width: 1.5rem;
+        width: 15rem;
+        max-width: 35rem;
+        background-color: rgba(242, 242, 242, 0.04);
+        border:1px solid lightgray;
+        border-left: none;
+        height: calc(100vh - 80px);
+        resize: horizontal;
+        overflow: auto;
+    }
+    .right_side
+    {
+        min-width: 1.5rem;
+        width: 15rem;
+        max-width: 35rem;
+        background-color: rgba(242, 242, 242, 0.04);
+        border:1px solid lightgray;
+        border-left: none;
+        height: calc(100vh - 80px);
+        resize: horizontal;
+        overflow: auto;
+    }
+    .nav_bar{
+        height:80px;
+        background-color: beige;
+    }
+    .side_bar{
+        width:13rem;
+        height: calc(100vh - 80px);
+        background-color: #f2f2f2;
+         }
+</style>
+<body>
+<div class="container-fluid p-0">
+
+        <div class="nav_bar">
+
+        </div>
+    <div class="main_container d-flex" style="height: calc(100vh - 80px);">
+        <div class="side_bar">
+
+        </div>
+        <div class="wrapper" style="width: calc(100vw - 13rem);">
+        <div class="row" >
+            <div class="col-sm-2 left_side">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" name="" id="name">
+            </div>
+            <div class="col-sm-4 left_middle" id="left_middle">
+                <div class="row">
+                    <div class="change">
+                        <div class="col-md-6">
+                            LEFT MIDDLE
+                        </div>
+                        <div class="col-md-6">
+                            <p> some icon</p>
+                            <p> some icon</p>
+                        </div>
+                    </div>
+
+                    <div class="col-12">
+                        <table class="table table-striped">
+                            <thead>
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">First</th>
+                                <th scope="col">Last</th>
+                                <th scope="col">Handle</th>
+                                <th scope="col">First</th>
+                                <th scope="col">Last</th>
+                                <th scope="col">Handle</th>
+                                <th scope="col">First</th>
+                                <th scope="col">Last</th>
+                                <th scope="col">Handle</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>Mark</td>
+                                <td>Otto</td>
+                                <td>@mdo</td>
+                                <td>Mark</td>
+                                <td>Otto</td>
+                                <td>@mdo</td>
+                                <td>Mark</td>
+                                <td>Otto</td>
+                                <td>@mdo</td>
+                            </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-2 right_middle">
+                <div class="row">
+                    <div class="col-12">
+                        <table class="table table-striped">
+                            <thead>
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">First</th>
+                                <th scope="col">Last</th>
+                                <th scope="col">Handle</th>
+                                <th scope="col">First</th>
+                                <th scope="col">Last</th>
+                                <th scope="col">Handle</th>
+                                <th scope="col">First</th>
+                                <th scope="col">Last</th>
+                                <th scope="col">Handle</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>Mark</td>
+                                <td>Otto</td>
+                                <td>@mdo</td>
+                                <td>Mark</td>
+                                <td>Otto</td>
+                                <td>@mdo</td>
+                                <td>Mark</td>
+                                <td>Otto</td>
+                                <td>@mdo</td>
+                            </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 right_side">
+                <div class="row">
+                    <div class="col-12">
+                        <table class="table table-striped">
+                            <thead>
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">First</th>
+                                <th scope="col">Last</th>
+                                <th scope="col">Handle</th>
+                                <th scope="col">First</th>
+                                <th scope="col">Last</th>
+                                <th scope="col">Handle</th>
+                                <th scope="col">First</th>
+                                <th scope="col">Last</th>
+                                <th scope="col">Handle</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>Mark</td>
+                                <td>Otto</td>
+                                <td>@mdo</td>
+                                <td>Mark</td>
+                                <td>Otto</td>
+                                <td>@mdo</td>
+                                <td>Mark</td>
+                                <td>Otto</td>
+                                <td>@mdo</td>
+                            </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+
+
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+<script>
+    var w=document.getElementById("left_middle").offsetWidth;
+    console.log(w);
+</script>
+</body>
+</html>
